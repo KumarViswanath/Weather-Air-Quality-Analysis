@@ -37,7 +37,7 @@ from sklearn.metrics import mean_absolute_error
 weather_url = "https://archive-api.open-meteo.com/v1/archive"
 
 cities = {
-    "New York": (40.7128, -74.0060, "36"),   # New York (state code 36)
+    "New York": (40.7128, -74.0060, "36"),   # New York
     "Los Angeles": (34.0522, -118.2437, "06"), # California
     "Houston": (29.7604, -95.3698, "48"),    # Texas
     "Phoenix": (33.4484, -112.0740, "04"),   # Arizona
@@ -278,6 +278,8 @@ for city, avg_pm25 in city_avg_pm25.items():
         fill=True,
         fill_color='crimson'
     ).add_to(m)
+# Display the map
+m
 
 """## **Time Series Forecasting**
 
