@@ -43,6 +43,6 @@ The project began with a classification approach to predict air quality categori
 
 To run the analysis, execute the main Python script:
 
-python analysis.py
+weather_air_quality_analysis.py
 
 You can also explore the project's development and detailed outputs in the Data\_Science\_Practicum.ipynb notebook.
