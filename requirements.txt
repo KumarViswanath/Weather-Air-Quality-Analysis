@@ -1,0 +1,62 @@
+# This file contains the project dependencies.
+# It can be used to install all required packages with pip:
+#
+#   pip install -r requirements.txt
+#
+
+branca==0.7.2
+    # via folium
+certifi==2024.7.4
+    # via requests
+charset-normalizer==3.3.2
+    # via requests
+contourpy==1.2.1
+    # via matplotlib
+cycler==0.12.1
+    # via matplotlib
+folium==0.17.0
+    # via -r requirements.in
+fonttools==4.53.0
+    # via matplotlib
+idna==3.7
+    # via requests
+jinja2==3.1.4
+    # via folium
+joblib==1.4.2
+    # via scikit-learn
+kiwisolver==1.4.5
+    # via matplotlib
+markupsafe==2.1.5
+    # via jinja2
+matplotlib==3.9.0
+    # via seaborn
+numpy==1.26.4
+    # via contourpy, folium, kiwisolver, matplotlib, pandas, scikit-learn, seaborn
+packaging==24.1
+    # via matplotlib
+pandas==2.2.2
+    # via seaborn
+pillow==10.3.0
+    # via matplotlib
+pyparsing==3.1.2
+    # via matplotlib
+python-dateutil==2.9.0.post0
+    # via matplotlib, pandas
+pytz==2024.1
+    # via pandas
+requests==2.32.3
+    # via folium
+scikit-learn==1.5.0
+    # via -r requirements.in
+scipy==1.13.1
+    # via scikit-learn
+seaborn==0.13.2
+    # via -r requirements.in
+six==1.16.0
+    # via python-dateutil
+threadpoolctl==3.5.0
+    # via scikit-learn
+tzdata==2024.1
+    # via pandas
+urllib3==2.2.1
+    # via requests
